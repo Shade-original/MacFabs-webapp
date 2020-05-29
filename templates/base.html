@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <!-- title of the tab -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Campatible" content="ie=edge">
+    <link href="{{ url_for('static', filename='css/design.css') }}" rel="stylesheet" type="text/css"/>
+    {% block head %}{% endblock %}
+  </head>
+
+  <!-- contents of first page -->
+  <body>
+
+    <!-- title tag for the schools theme -->
+    <h1><b>McFabs school of arts - A place where you can love learning</b></h1>
+
+    <hr width="80%" color="lightgrey">
+      <h2 align="center">Welcome to the McFabs web page ;)</h2>
+
+      <!-- links to the rest of the website -->
+    <div class="nav1">
+      <h3>
+        <a href="/">Home</a>
+        <a href="/Products&Services/">Services/Products</a>
+        <a href="/Events/">Events</a>
+        <a href="/Contacts/">Contacts</a>
+        <a href="/Blog/">Blog</a>
+        <a href="/FAQ/">FAQ</a>
+      </h3>
+    </div>
+
+    <hr width="80%" color="lightgrey">
+    <!--Jinga2 syntax that just edit the page where needed-->
+    {% block body %}{% endblock %}
+    <!-- bottom of the page, excuse the ego {*cough :)} I was just messing around  -->
+    <div class="foot">
+    <hr width="80%" color="lightgrey">
+
+     <footer>
+      <div class="nav2">
+      <font size="2">
+          created by <a href="/Hi/"><i>Francis</i></a>
+          <a href="/FAQ/">FAQ</a>
+          <a href="/Blog/">Blog</a>
+          <a href="/Contacts/">Contacts</a>
+          <a href="/Resources/">Resources</a>
+          <a href="/Games/">Quick Games</a>
+          <a href="/AdLogin/">Login as Admin</a>
+          <i>Copyright</i>
+      </font>
+      </div>
+  </body>
+
+</html>

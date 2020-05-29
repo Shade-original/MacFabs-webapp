@@ -1,0 +1,55 @@
+body{
+  margin-left: 4cm;
+  margin-right: 4cm;
+  font-family: sans-serif;
+  text-decoration: none;
+  background-color: white;
+  padding: 0;
+  text-decoration-color: whitesmoke;
+}
+
+
+.nav1 h3{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.nav1 h3 a{
+  display: inline-table;
+  color: black;
+  text-decoration: none;
+  margin-left: 1cm;
+}
+
+
+.nav2 font{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 1;
+  font-family: monospace;
+  margin-left: 6.5cm;
+}
+
+.nav2 font a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 1;
+  font-family: monospace;
+  margin-left: 0.5cm;
+}
+
+.nav2 font a i{
+  text-align: center;
+  margin-left: -0.5cm;
+}
+
+.nav2 font i{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 1;
+  margin-left: 0.5cm;
+}
